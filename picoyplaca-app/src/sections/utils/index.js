@@ -1,7 +1,6 @@
 import { weekdayRanges } from "../../constants";
 
 const isPicoPlacaDay = (day, lastNumPlate) => {
-  console.log("isPPDay:", day);
   switch (day) {
     case 1:
       if (weekdayRanges.one.includes(lastNumPlate)) return true;
@@ -25,7 +24,6 @@ const isPicoPlacaDay = (day, lastNumPlate) => {
 };
 
 const isPicoPlacaTime = time => {
-  console.log("time", time);
   // Pico y Placa Time Ranges
   if ((time > 700 && time < 930) || (time > 1600 && time < 1930)) return true;
   else return false; // Out of Pico y Placa Ranges
