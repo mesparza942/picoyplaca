@@ -79,12 +79,14 @@ const Content = () => {
 
   const shouldDisableButton = type => {
     if (type === "clear") {
+      // Clear button disable condition
       return (
         input === "" &&
         date === text.defaultDateTime &&
         time === text.defaultDateTime
       );
     } else {
+      // Predict button disable condition
       return input === "";
     }
   };

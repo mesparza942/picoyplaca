@@ -29,8 +29,8 @@ const ContainedButton = ({ type, label, onClick, disabled }) => {
 
 ContainedButton.propTypes = {
   type: string,
-  label: string,
-  onClick: func,
+  label: string.isRequired,
+  onClick: func.isRequired,
   disabled: bool
 };
 

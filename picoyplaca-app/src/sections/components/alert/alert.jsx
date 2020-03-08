@@ -21,8 +21,8 @@ const SimpleAlert = ({ isAlert, alertMsg }) => {
 };
 
 SimpleAlert.propTypes = {
-  alertMsg: string,
-  isAlert: bool
+  alertMsg: string.isRequired,
+  isAlert: bool.isRequired
 };
 
 export default SimpleAlert;
