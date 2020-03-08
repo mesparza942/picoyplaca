@@ -11,7 +11,7 @@
 - Clone the repository
 - Go to this path in your terminal: `picoyplaca/picoyplaca-app`
 - run: `npm install`
-- run: `yarn start`
+- run: `npm start`
 
 ## Unit tests:
 
@@ -23,4 +23,8 @@ I have added few unit tests:
 
 To verify test are running correctly run the following command on your terminal:
 
-`yarn test`
+`npm test`
+
+## Demo
+
+![](demo/picoyplaca-demo.png)
