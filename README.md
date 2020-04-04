@@ -1,5 +1,7 @@
 # Pico y Placa Exercise
 
+Pico y placa is a Ecuadorian goverment law movement restriction for cars that have specific plate number for each weekday in order to improve the traffic in the city.
+
 ## For this exercise I have used the following libraries:
 
 - Material UI Components
